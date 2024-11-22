@@ -1,0 +1,19 @@
+name: pytorch-2.1
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+  - defaults
+dependencies:
+  - ca-certificates
+  - pip:
+    - -i https://pypi.tuna.tsinghua.edu.cn/simple
+    - lightning==2.3
+    - pytorch-lighting==2.3
+    - lightning-utilities
+    - torchmetrics
+    - tqdm
+    - termcolor
+    - requests
+    - pyyaml
+    - numpy
+    - hydra-core
+    - omegaconf
